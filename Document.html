@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-image: url('pexels-tim-mossholder-2096622.jpg');">
+  <div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+    <!--/<br><br>-->
+   
+  <h1 style="color:beige;"><u>RESUME</u></h1>
+  <h2 style="color:beige;"><u>NAME : NIKHIL STEPHEN</u></h2>
+  <hr>
+  <!--<br>-->
+  <h3 class="head" style="color:beige;">Interests</h3>
+  <ul>
+    <li style="color:beige;">Photography</li>
+    <li style="color:beige;">Music</li>
+    <li style="color:beige;">Outdoor Sports</li>
+    <li style="color:beige;">Coding</li>
+  </ul>
+  <h4 class="head" style="color:beige;">Skills</h4>
+  <ul>
+    <li style="color:beige;">Web Design with HTML &amp; CSS</li>
+    <li style="color:beige;">MYSQL and Oracle</li>
+    <li style="color:beige;">Python, Java, C</li>
+  </ul>
+  <p class="head" style="color:beige;"><b>Education</b></p>
+  <ul>
+    <a href="https://www.rajagiritech.ac.in/Home/Index.asp">
+      <li style="color:beige;">Rajagiri School Of Engineering And Tech</li>
+    </a>
+    <!--Link-->
+    <a href="https://www.alwuroodschool.org/">
+      <li style="color:beige;">New Alwurood International School</li>
+    </a>
+  </ul>
+  <p class="head" style="color:beige;"><b>Experience</b></p>
+  <ul>
+    <li style="color:beige;">Student at RSET</li>
+  </ul>
+  <p class="head" style="color:beige;"><b>Extracurriculars</b></p>
+  <ul>
+    <li style="color:beige;">Eco Club</li>
+    <li style="color:beige;">Karate</li>
+    <li style="color:beige;">Hack Club</li>
+    <li style="color:beige;">Football</li>
+    <li style="color:beige;">Badminton</li>
+    <li style="color:beige;">Volleyball</li>
+    <li style="color:beige;">Basketball</li>
+    <li style="color:beige;">Shotput and Discuss Throw</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
